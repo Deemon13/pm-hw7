@@ -1,0 +1,21 @@
+{
+  "name": "pm-hw-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel"
+  },
+  "keywords": [],
+  "author": "Dmitriy Fedorenko",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8"
+  }
+}

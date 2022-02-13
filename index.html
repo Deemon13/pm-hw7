@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>GitHUB AJAX searcher</title>
+  </head>
+  <body>
+    <div id="root" class="container">
+      <form
+        id="search-form"
+        name="usersearch_form"
+        autocomplete="off"
+        novalidate
+      >
+        <label for="user_input"> Search user: </label>
+        <input
+          name="user"
+          id="user_input"
+          type="text"
+          placeholder="input user nickname here"
+        />
+
+        <button name="submit" type="submit">Search</button>
+      </form>
+      <p class="message__finder"></p>
+      <ul class="list users__list"></ul>
+      <button class="users__more" type="button">More users</button>
+    </div>
+    <script type="module" src="scripts/app.js"></script>
+  </body>
+</html>
